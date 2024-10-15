@@ -1,0 +1,259 @@
+@media(max-width:1023px) {
+   
+    .nosotros-container h2,
+    .servicios-index h2 {
+        font-size: 24px;
+    } 
+
+    .nosotros-card img{
+        width: 250px;
+        height: 300px; 
+    }
+
+    .gallery {
+        margin-top: 20px;
+    } 
+
+    .contenido-servicios-index {
+        width: 60%;
+    }
+
+    .icons-index-contenedor {
+        width: 60%;
+    }
+
+}
+
+@media(max-width:767px) {
+    
+    .header img {
+        width: 125px;
+        height: 50px; 
+    }
+
+    .inicio_section-text h1 {
+        font-size: 40px;
+        margin-top: 0px;
+       /* margin-top: 50px;*/
+    }
+
+    .inicio_section-text p {
+        font-size: 25px;
+        padding: 30px;
+    } 
+
+    .icons-index-contenedor {
+        margin-bottom: 20px;
+    }
+
+   /*  .header-mobile {
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-mobile .logo {
+        font-size: 24px;
+    } */
+
+  /*  .open-menu, .close-menu {
+        background-color: transparent;
+        color: var(--clr-gray);
+        border: 0;
+        font-size: 32px;
+        cursor: pointer;
+    } 
+
+    .close-menu {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    } */
+
+    /* #footer2 {
+        display: flex;
+        background-color: var(--clr-main);
+        border-top: 2px solid white;
+    }
+
+    .direccion {
+        color: white;
+    }
+
+    .footer2-container {
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        gap: 50px;
+    } */
+
+   /* header img {
+        width: 100px;
+        height: 100px;
+        display: none;
+    } */
+
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	} 
+
+    /* .social-icons a {
+         margin: 0px 5px;
+         padding: 1px;
+         font-size: 20px;
+         width: 30px;
+         height: 30px;
+    } */ 
+
+    /* 
+    .contenido-servicios-index {
+        width: 60%;
+    }
+
+    .icons-index-contenedor {
+        width: 60%;
+    } */ 
+
+    .nosotros-card {
+        display: none;
+    } 
+
+    
+    .nosotros-container {
+        width: 80%;
+    }
+
+    .contenedor1 img,  
+    .contenedor2 img, 
+    .contenedor3 img {
+        display: none;
+    }
+    .contenido-servicios {
+        gap: 0px;
+        margin-bottom: 20px;
+    } 
+
+    /* .contenido-servicios-orden-index:last-child {
+        margin-top: 20px;
+    } */
+
+    .contact-section {
+        flex-direction: column; 
+    } 
+
+    .contact-contenedor {
+        flex-direction: column; 
+    } 
+    
+    .footer2-container,
+    .footer2-container2,
+    .blue {
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    } 
+
+    .precio1-footer2, 
+    .horario-footer2,
+    .direccion-footer,
+    .telefono-footer, 
+    .email-footer {
+        margin-bottom: 20px;
+    }
+
+    /*  .iframe-video {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    } */
+}
+
+@media(max-width:500px) {
+
+    /* 
+    aside {
+        width: 45%;
+    }
+
+    .header-mobile .logo {
+        font-size: 20px;
+    } */
+
+    .inicio_section-text h1 {
+        font-size: 40px;
+    }
+
+    .inicio_section-text p {
+        font-size: 16px;
+        width: 100%;
+        padding: 100px;
+    } 
+
+    /*.contenido-servicios-orden-index:last-child {
+        margin-top: 20px;
+    } */
+
+    .splide__slide img {
+        width: 90%;
+        height: 250px;
+        border-radius: 10px;
+    } 
+
+    .slide-index {
+        /* background-color: black; */
+        width: 100%;
+        margin: 0 auto;
+    } 
+
+    .info-card {
+        width: 200px;
+    }
+
+    .info-card img {
+        width: 175px;
+        height: 150px;
+        margin-bottom: 5px;
+    } 
+
+    .info-card h3 {
+        font-size: 14px;
+    }
+} 
+
+@media(max-width:400px) {
+    .inicio_section-text h1 {
+        font-size: 30px;
+    } 
+
+   /* .contenido-servicios-index {
+        flex-direction: column;
+    }*/
+
+    .contenido-servicios-orden-index {
+        margin: 0px;
+        justify-content: center;
+    } 
+
+    .contenido-servicios-orden-index1,
+    .contenido-servicios-orden-index2,
+    .contenido-servicios-orden-index3,
+    .icons-index-card {
+    width: 200px;
+}
+     
+.contenido-servicios-orden-index p {
+    font-size: 14px;
+} 
+
+
+.splide__slide img {
+    width: 60%;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0 auto;
+} 
+}

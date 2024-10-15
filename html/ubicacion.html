@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" /> 
+    <link rel="stylesheet" href="../mediaqueries/mediaqueries.css" /> 
+    <!-- iconos boostrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header-mobile">
+        <h1 class="logo">Los Cucuruchitos</h1>
+        <button class="open-menu" id="open-menu">
+            <i class="bi bi-list"></i>
+        </button>
+      </header>
+      <aside>
+        <button class="close-menu" id="close-menu">
+          <i class="bi bi-x"></i>
+        </button> 
+        <header class="logo">
+          <img src="../img/logo/logo.jpg" class="logo-img" alt="" />
+        </header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <a href="../index.html" class="boton-menu"
+                ><i class="fa-solid fa-house"></i>Inicio</a
+              >
+            </li>
+            <li>
+              <a href="servicios.html" class="boton-menu"
+                ><i class="fa-solid fa-briefcase"></i>Servicios</a
+              >
+            </li>
+            <li>
+              <a href="imagenes.html" class="boton-menu"
+                ><i class="fa-solid fa-image"></i>Imagenes</a
+              >
+            </li>
+            <li>
+              <a href="contacto.html" class="boton-menu"
+                ><i class="fa-solid fa-address-book"></i>Contacto</a
+              >
+            </li>
+            <li>
+              <a href="ubicacion.html" class="boton-menu active"
+                ><i class="fa-solid fa-location-dot"></i>Ubicacion</a
+              >
+            </li>
+            <li>
+              <a href="nosotros.html" class="boton-menu"
+                >
+                <i class="bi bi-people-fill"></i>Nosotros</a> 
+            </li>
+
+          </ul>
+        </nav>
+      </aside>
+
+      <main>
+        <section id="#ubicacion" class="ubicacion-section">
+          <div class="iframe-contenedor">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99611.232271834!2d-62.25637244999999!3d-38.72122955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcabdc1302bd%3A0x76d1d88d241e7a11!2sBah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1706554153678!5m2!1ses!2sar"
+               
+              style="border: 0; width: 100%; height: 70vh;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section> 
+        <footer id="footer2">
+          <div class="footer2-container">
+  
+            <div class="direccion-footer">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Direccion:</p>
+              <p>Tu direccion</p>
+            </div> 
+
+            <div class="telefono-footer">
+              <i class="bi bi-telephone"></i> 
+              <p>Telefono:</p>
+              <p>291-654423</p>
+            </div>
+  
+            <div class="email-footer">
+              <i class="fa-regular fa-envelope"></i>
+              <p>Email:</p>
+              <p>tuemail@gmail.com</p>
+            </div>
+
+            <!--
+            <div class="pago-footer">
+              <i class="fa-regular fa-credit-card"></i>
+              <p>Medios de pago:</p>
+              <p>Efectivo o Transferencia</p>
+            </div> -->
+  
+            <div class="social-icons">
+              <a href="" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="" target="_blank">
+                <i class="bi bi-telephone"></i>
+              </a> 
+              <!-- <a href="" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a> -->
+            </div>
+          </div>
+        </footer>
+      <!-- icono whatsapp -->
+      <a href="https://api.whatsapp.com/send?phone=" class="btn-wsp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      </main>
+    </div>
+    <script src="../main.js"></script>
+  </body>
+</html>

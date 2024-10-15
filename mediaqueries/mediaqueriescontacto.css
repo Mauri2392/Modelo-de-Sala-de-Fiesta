@@ -1,0 +1,124 @@
+@media(max-width:1366px) {
+
+}
+
+@media(max-width:1023px) {
+    .contact-section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0px; 
+    }
+    .contact-form {
+        width: 60%;
+
+    .contact-form legend {
+            font-size: 16px; 
+        }
+    }
+
+    .container-contacto {
+        gap: 0px;
+    }
+    .contact-form {
+        margin-bottom: 20px;
+    }
+
+    
+    .contact-section h2 {
+        margin-bottom: 10px;
+    }
+
+    .contenido-contacto-orden-index1,
+    .contenido-contacto-orden-index2,
+    .contenido-contacto-orden-index3 {
+        margin: 0px;
+        padding: 20px; 
+    } 
+} 
+
+@media(max-width:767px) {
+    .formulario-section {
+        margin-top: 0px;
+    } 
+    .container-contacto h2 {
+        font-size: 25px;
+    } 
+
+    .contact-section {
+        padding: 0px;
+       /* padding-top: 50px; */
+        /* margin-top: 60px; */
+    }
+
+    .contenido-contacto-index {
+        flex-direction: column;
+    } 
+
+    .contenido-contacto-orden-index1,
+    .contenido-contacto-orden-index2,
+    .contenido-contacto-orden-index3 {
+        padding: 20px;
+    }
+    .contact-form legend {
+        font-size: 20px; 
+    } 
+
+    .contact-form input, .contact-form textarea {
+        font-size: 12px;
+    }
+
+    .contact-form input[type="submit"] {
+        font-size: 12px;
+    }
+
+    .contact-form {
+        width: 60%;
+    }
+
+    .contact-section {
+      /*   margin: 0px; */
+        margin-bottom: 0px;
+    }
+
+    
+    .formulario_section-text h1 {
+        font-size: 40px;
+    }
+    /*  
+    .contact-contenedor {
+      margin: 0px;
+    } */
+
+    @media(max-width:600px) { 
+        
+        .contenido-contacto-index {
+            width: 80%;
+        } 
+        
+        /* 
+        .contact-section {
+            padding: 20px;
+            padding-top: 50px; 
+        } */ 
+
+        .contact-section h2 {
+            font-size: 20px;
+        }
+
+        .contact-form {
+            width: 80%;
+        }
+
+        .contenido-contacto-orden-index1 p,
+        .contenido-contacto-orden-index2 p,
+        .contenido-contacto-orden-index3 p {
+            font-size: 18px;
+        }
+
+        footer p {
+            font-size: 18px;
+        }
+    }
+} 
+
+

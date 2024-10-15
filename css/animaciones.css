@@ -1,0 +1,54 @@
+/* Animaciones */ 
+
+  /* Animacion fade */
+  /*Funcionamiento: pasa de opacidad 0 a opacidad 1*/
+  @keyframes fade {
+    form {
+        opacity: 0;
+    }
+    to {
+        opacity: 10;
+    }
+  }
+
+/* Animacion slide arriba */
+  /*Funcionamiento: Hacemos llegar al elemento animado desde abajo*/
+  @keyframes slide-up {
+    from {
+      transform: translateY(100px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  } 
+
+
+ /* Animacion slide derecha */
+  /*Funcionamiento: Hacemos llegar al elemento animado desde la derecha*/
+  @keyframes slide-right {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+/* Animacion al h1 */
+.inicio_section-text h1, 
+.servicios_section-text h1, 
+.galeria_section-text h1, 
+.formulario_section-text h1,
+.content h3 {
+    /*animacion - duración - animation-function*/
+    animation: fade 1s ease-in, slide-up 1.3s ease-in-out;
+  }
+
+/* Animacion al p */
+.inicio_section-text p,
+.btn {
+    opacity: 0;
+    /*animacion - duración - animation-function - forwards para que quede fijo al final.*/
+    animation: fade 0.8s ease-in forwards, slide-up 0.9s ease-in-out;
+    animation-delay: 0.3s;
+  }
